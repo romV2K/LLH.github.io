@@ -1,0 +1,540 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.color{
+     background-color: rgba(255, 255, 255, 0.486) !important; 
+}
+
+.nav-item>a{
+     color: rgb(0, 0, 0) !important;
+}
+
+.brand-block{
+     width:200px;
+}
+.brand>img{
+     width: 150px;
+     height:auto;
+}
+p,a{
+     font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+ul>li>a{
+     font-weight: 500;
+}
+.social-buttons{
+     /* margin: 10px;  */
+     padding-left: 0px;
+}
+.social-buttons>li>a>i{
+     font-size: 20px;
+}
+
+.collaps-items-set-middle{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.main-text>h6{
+     color:white;
+     font-weight: 500;
+     letter-spacing: 3.2px;
+     margin-bottom: 10px;
+     
+}
+.main-text>h1{
+     color: white;
+     font-weight: 900;
+     font-size: 60px;
+     letter-spacing: 3.2px;
+     margin-top: 65px;
+     text-align: center;
+     
+}
+
+
+.main-text>h3{
+     color: white;
+     font-weight: 200;
+     font-size: 25px;
+     text-align: center;
+     margin-top: 15px;
+}
+strong{
+     font-weight: 900;
+}
+.what-is{
+     margin: 5% 20% 5% 20%;
+     font-size: 20px;
+}
+
+.photo-lviv-legal-hackers{
+     position: relative;
+}
+.photo-lviv-legal-hackers>img{
+width: 100%;
+z-index: 0;
+}
+
+.black-text-box{
+     color: white;
+     width: 600px;
+     height: auto;
+     background-color: black;
+     padding: 20px;
+     position: absolute;
+     z-index: 1;
+     left:50%;
+     top:60%;
+}
+.black-text-box>p{
+     font-size: 20px;
+     font-weight: 300;
+}
+
+.d-block {
+     margin: 0 auto;
+     width: 60%;
+}
+
+hr{
+     margin: 5% 10% 5% 10%;
+}
+
+.carousel-control-prev> img {
+     background-image: none;
+     width: 35%;
+     height: auto;
+     color: black;
+}
+.carousel-control-next> img{
+     background-image: none;
+     width: 35%;
+     height: auto;
+     color: black;            
+}
+
+.organizers{
+     margin-top: 10%;
+}
+.organizers>h1{
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     text-align: center;
+     letter-spacing: 3.2px;
+}
+
+
+.organizer-grid{
+     margin: 5% 10% 5% 10%;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(270px,1fr)) ;
+     grid-gap: 1.5vw;
+     justify-content: center;
+}
+
+
+.organizer-card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     letter-spacing: 2px;
+}
+
+.organizer-card>a{
+     font-size: 15px;
+}
+
+.organizer-card>p{
+     margin-top:5% ;
+     font-size: 20px;
+     color: black;
+}
+
+.organizer-links{
+     width: 45%;
+     display: flex;
+     justify-content: space-around;
+}
+
+.organizer-links>a>i{
+     font-size: 20px;
+     color: grey;
+}
+
+.organizer-link:hover{
+     transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+}
+.organizer-links>a>i:hover{
+     color: black;
+}
+
+.partner-photo1{
+     width: 50%;
+     height: 70%;
+}
+
+.partner-photo2{
+     width: 20%;
+     height: auto;
+}
+
+.general-international-mass-partners-student-grid{
+     margin: 5% 5% 0% 5%;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(270px,1fr)) ;
+     grid-gap: 1vw;
+     justify-content: center;
+     align-items: center;
+}
+
+.general-international-mass-partners-grid-student {
+     margin-top: 5%;
+}
+
+.international-partner-photo-block{
+     width: 100%;
+     display: flex;
+     height: auto;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.international-partner-photo-block>a{
+     margin-top: 5%;
+     color: rgb(219, 131, 99);
+     font-size: 25px;
+     letter-spacing:3.2px;
+}
+
+footer {
+     background-color: #111111;
+     text-align: center;
+     margin-top: 40px;
+     height: 330px;
+}
+
+.footer-logo {
+     margin: 60px 0 60px 0;
+}
+
+.footer-text {
+     color: rgb(114, 114, 114);
+     margin-bottom: 20px;
+     font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.comm-img {
+     object-fit: cover;
+     object-position: 0 74%;
+     width: 500px;
+     height: 350px;
+     margin-left: -30px;
+     z-index: 0;
+}
+
+.join-community {
+     margin-top: 7%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.comm-text-block {
+     width: 450px;
+     height: 350px;
+     background-color: rgb(239, 239, 239);
+     margin: 50px 0 0 0;
+     padding: 40px;
+     z-index: 1;
+}
+
+.comm-text-block>p {
+     font-size: 40px;
+     font-weight: bold;
+     margin-bottom: 4rem;
+}
+
+.comm-text-block>a {
+     text-decoration: none;
+     color: white;
+     background-color: #ff1f1f;
+     padding: 20px 40px;
+     font-size: 20px;
+     font-weight: 700;
+     margin-top: 50px;
+}
+
+.comm-text-block>a:hover {
+     background-color: #cc1717;
+}
+#telegram-invite-text, .telegram-invite{
+     display: none;
+}
+
+@media (max-width:1200px){
+     .black-text-box{
+          left:40%;
+          top:50%;
+     }
+}
+
+@media (max-width:990px){
+     .nav-item>a{
+          color: rgb(0, 0, 0) !important;
+     }
+     .black-text-box{
+          left:40%;
+          top:50%;
+     }
+     .comm-text-block{
+          width: 500px;
+          margin-bottom: 20px;
+     }
+     .comm-img {
+          margin: 0;
+     }
+}
+
+@media (max-width:720px){
+     .main-text>h1{
+          margin-top: 20px;
+          font-size: 30px;
+     }
+     .main-text>h3{
+          font-size: 15px;
+     }
+     .black-text-box{
+          left: 20%;
+          top: 30%;
+          width: 400px
+     }
+     .black-text-box>p{
+          font-size: 15px;
+     }
+     .organizers>h1{
+          font-size: 30px;
+     }
+     .general-partners h1{
+          font-size: 30px;
+     }
+     .international-partners h1{
+          font-size: 30px;
+     }
+     .mass-media h1{
+          font-size: 30px;
+     }
+
+
+}
+
+@media (max-width:500px){
+     .main-text>h1{
+          margin-top: 5px;
+          font-size: 30px;
+     }
+     .main-text>h3{
+          font-size: 15px;
+          margin-top: 5px;
+     }
+     .main-text>h6{
+          margin-bottom: 0px;
+     }
+     .black-text-box{
+          left:10%;
+          top:25%;
+     }
+}
+@media (max-width:420px){
+
+     .navbar{
+          height: 55px;
+          
+     }
+     .navbar-toggler{
+          padding-right: 0px ;
+     }
+     .brand>img {
+          width: 105px;
+          height: 40px;
+     }
+     .collaps-items-set-middle{
+          background-color: rgb(255, 255, 255);
+     }
+     .main-text h6{
+          margin-bottom: 10%;
+          font-size: 20px;
+          /* display: none; */
+     }
+     #telegram-invite-text{
+          display: block;
+          text-align: center;
+          margin-top: 10%;
+     }
+     .telegram-invite{
+          display: block;
+          margin-top: 10%;
+          border-radius: 30px;
+          width: auto;
+          height: auto;
+          padding: 10px 10px 10px 10px;
+          border: 3px solid white;
+          -webkit-border-radius: 30px;
+          -moz-border-radius: 30px;
+          -ms-border-radius: 30px;
+          -o-border-radius: 30px;
+}
+
+     .telegram-invite>a>p{
+          color: white;
+          margin: 0px;
+          font-weight: bold;
+     }
+     .main-text h1{
+          font-size: 30px;
+     }
+     .main-text h3{
+          font-size: 20px;
+          display: none;
+          
+     }
+     .main-description p{
+          font-size: 15.5px;
+          width: 140%;
+     }
+     .photo-lviv-legal-hackers img{
+          /* display: none; */
+          width: 100%;
+          overflow: hidden;
+          height: auto;
+     }
+     .black-text-box{
+          position: absolute;
+          left: 8%;
+          top: 35%;
+          width: 85%;
+     }
+     nav{
+          position: relative !important;
+     }
+
+     .navbar-toggler-icon{
+          border: 1px solid black;
+          background-color: black;
+          border-radius: 7px;
+     }
+
+     .d-block{
+          width: 100%;
+
+     }
+     .carousel-control-next  img{
+          background-image: none;
+          width: 70%;
+          height: auto;                 
+     }
+
+     .carousel-control-prev  img{
+          background-image: none;
+          width: 70%;
+          height: auto;
+     }
+
+     .organizers>h1{
+          font-size: 25px;
+          margin: 0% 5% 0% 5%;
+     }
+
+     .organizer-grid{
+          grid-gap: 50px;
+     }
+
+     .general-partners h1{
+          font-size: 25px;
+          margin: 0% 5% 0% 5%;
+     }
+     .general-international-mass-partners-student-grid{
+          grid-gap: 25px;
+     }
+
+     .general-international-mass-partners-student-grid>div>img{
+          width: 75%;
+     }
+     
+
+     .international-partners h1{
+          font-size: 25px;
+          margin: 0% 5% 0% 5%;
+     }
+
+     .mass-media h1{
+          font-size: 25px;
+          margin: 0% 5% 0% 5%;
+     }
+
+     .partner-photo2{
+          width: 50%
+     }
+     .comm-text-block{
+          margin-bottom: 0px;
+     }
+     .comm-text-block p{
+          font-size: 30px;
+
+     }
+
+     .international-partner-photo-block a{
+          font-size: 20px;
+     }
+}
+@media(max-width:375px) {
+     .main-text h6{
+          margin-bottom: 10%;
+          font-size: 17px;
+          /* display: none; */
+     }
+     .main-text h1{
+          font-size: 23px;
+     }
+
+     #telegram-invite-text{
+          margin-bottom: 0px;
+     }
+     .black-text-box{
+          position: absolute;
+          top: 28%;
+     }
+
+}
+
+@media(max-width:320px) {
+     .main-text h6{
+          margin-bottom: 10%;
+          font-size: 15px;
+          /* display: none; */
+     }
+     .main-text h1{
+          font-size: 17px;
+     }
+     #telegram-invite-text{
+          margin-bottom: 0px;
+     }
+     .black-text-box{
+          position: absolute;
+          top: 22%;
+     }
+}
+
